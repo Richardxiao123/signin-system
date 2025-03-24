@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+    <title>已經登入了</title>
+    {% load static %}
+    <link href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <h2>簽到的QR CODE</h2>
+    
+    <p>歡迎光臨：{{name}}</p>
+            <p>現在時間：{{now}}</p>
+            <p>您已經登入</p>
+    
+    <img src="{% static '/images/myphoto.jpg' %}">
+    
+</body>
+
+
+</html>

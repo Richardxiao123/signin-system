@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>簽到系統</title>
+    
+</head>
+<body>
+
+    <h1>歡迎光臨：{{username}}</h1>
+    <h2>現在時刻：{{now}}</h2>
+    <h3>您的個人資料{{errormessage}}</h3>
+    姓名：{{unit.cName}}<br />
+    電話：{{unit.cPhone}}<br />
+    賴帳號：{{unit.cLine}}<br />
+<form action="/post/" method="POST" name="form1">
+    {% csrf_token %}
+    <div>請輸入姓名：<input type="text" name="username" />
+    <input type="submit" value="送出資料" />
+    <div>接受到的資料:{{mess}}</div>
+    </div>
+
+</form>
+
+</body>
+</html>
