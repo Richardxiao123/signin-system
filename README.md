@@ -28,6 +28,7 @@ signin/                # 專案目錄
 ├── static/
 │   ├──css
 │   └──images
+│
 ├── templates/             
 │   ├──1.html
 │   ├──boss.html
@@ -35,6 +36,7 @@ signin/                # 專案目錄
 │   ├──info.html
 │   ├──login.html
 │   └──page.html
+│
 ├── db.sqlite3
 ├──manage.py
 └──user_data.json
