@@ -5,7 +5,7 @@
 這是一個使用 Django 建立的網頁專案，目標能夠達成使用隨機生成QRCODE開關門禁並且紀錄下人物登入時間。
 ---
 
-## 📁 專案架構
+## 專案架構
 ```
 signin/                # 專案目錄
 │
@@ -40,18 +40,9 @@ signin/                # 專案目錄
 ├──manage.py
 └──user_data.json
 ```
-
 ---
 
-## 🌟 網頁架構
-- `index.html`: 網站首頁，使用 Django 模板引擎渲染。
-- `style.css`: 簡單的 CSS 檔案用於美化網頁。
-- `views.py`: 定義渲染網頁的視圖函式。
-- `urls.py`: 配置 URL 對應的視圖。
-
----
-
-## 🚀 環境設定與啟動方式
+## 環境設定與啟動方式
 ### 1. 安裝 Django
 ```bash
 pip install django
